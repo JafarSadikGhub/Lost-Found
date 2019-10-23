@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Registration</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<!-- MATERIAL DESIGN ICONIC FONT -->
+		<link rel="stylesheet" href="temp_fonts/material-design-iconic-font/css/material-design-iconic-font.min.css">
+
+		<!-- STYLE CSS -->
+		<link rel="stylesheet" href="temp_css/style.css">
+	</head>
+
+	<body>
+
+		<div class="wrapper" style="background-image: url('temp_image/p4.jpg');">
+			<div class="inner">
+				<div class="image-holder">
+					<img src="temp_image/p3.jpg" alt="">
+				</div>
+				<form action="signup.php" method="POST">
+					<h3>FLO Registration Form</h3>
+					<div class="form-wrapper">
+						<input type="text" name="firstname" placeholder="First Name" class="form-control">
+            <input type="text" name="lastname" placeholder="Last Name" class="form-control">
+					</div>
+					<div class="form-wrapper">
+						<input type="text" name="username" placeholder="Username" class="form-control">
+						<i class="zmdi zmdi-account"></i>
+            <input type="text" name="email" placeholder="E-mail" class="form-control">
+						<i class="zmdi zmdi-email"></i>
+					</div>
+					<div class="form-wrapper">
+						<input type="password" name="password" placeholder="Password" class="form-control">
+					</div>
+					<button type="submit" value="submit">Register
+						<i class="zmdi zmdi-arrow-right"></i>
+					</button>
+					Already have an account? <a href="register/login.php">Login Here</a>
+				</form>
+			</div>
+		</div>
+
+	</body>
+</html>

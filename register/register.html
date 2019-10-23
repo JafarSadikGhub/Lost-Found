@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Registration</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<!-- MATERIAL DESIGN ICONIC FONT -->
+		<link rel="stylesheet" href="fonts/material-design-iconic-font/css/material-design-iconic-font.min.css">
+
+		<!-- STYLE CSS -->
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+
+	<body>
+
+		<div class="wrapper" style="background-image: url('images/p4.jpg');">
+			<div class="inner">
+				<div class="image-holder">
+					<img src="images/p3.jpg" alt="">
+				</div>
+				<form action="register.php" method="POST">
+					<h3>Lost & Found Registration Form</h3>
+					<div class="form-wrapper">
+						<input type="text" name="fullname" placeholder="Full Name" class="form-control">
+					</div>
+					<div class="form-wrapper">
+						<input type="text" name="username" placeholder="Username" class="form-control">
+						<i class="zmdi zmdi-account"></i>
+					</div>
+					<div class="form-wrapper">
+						<input type="password" placeholder="Password" class="form-control">
+						<i class="zmdi zmdi-lock"></i>
+					</div>
+					<div class="form-wrapper">
+						<input type="password" placeholder="Confirm Password" class="form-control">
+						<i class="zmdi zmdi-lock"></i>
+					</div>
+					<div class="form-wrapper">
+						<input type="text" name="email" placeholder="Email Address" class="form-control">
+						<i class="zmdi zmdi-email"></i>
+					</div>
+					<div class="form-wrapper">
+						<input type="text" name="address" placeholder="Address" class="form-control">
+						<i class="zmdi zmdi-email"></i>
+					</div>
+
+					<div class="form-group">
+						<select name="gender" id="" class="form-control">
+							<option value="" disabled selected>Gender</option>
+							<option value="male">Male</option>
+							<option value="female">Female</option>
+							<option value="other">Other</option>
+						</select>
+						<i class="zmdi zmdi-caret-down" style="font-size: 17px"></i>
+
+							<input type="text" name="profession" placeholder="Profession" class="form-control">
+					</div>
+					<div class="form-group">
+							<input type="text" name="dob" placeholder="Date of Birth" class="form-control">
+							<input type="text" name="phone" placeholder="Contact No." class="form-control">
+					</div>
+					<div class="form-wrapper">
+						<input type="text" name="facebook" value="" placeholder="Facebook Profile Link" class="form-control">
+					</div>
+
+					<button>Register
+						<i class="zmdi zmdi-arrow-right"></i>
+					</button>
+				</form>
+			</div>
+		</div>
+
+	</body>
+</html>
